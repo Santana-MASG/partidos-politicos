@@ -1,11 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IEEZ</title>
-</head>
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}
+IEEZ
+{% endblock title %}  
+
+
+{% block body %}
+
 <body>
     <h1>IEEZ</h1>
     <p>Partidos</p>
@@ -17,4 +20,4 @@
         {% endfor %}
     </ul>
 </body>
-</html>
+{% endblock body %}
